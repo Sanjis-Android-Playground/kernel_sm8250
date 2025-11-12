@@ -668,14 +668,14 @@ this file is for attribution only of alioth
 		mi,pd-bat-curr-max = <5400>;
 		mi,pd-bus-volt-max = <12000>;
 		mi,pd-bus-curr-max = <2100>;
-		mi,pd-bus-curr-compensate  = <50>;
+		mi,pd-bus-curr-compensate  = <0>;
 		mi,pd-non-ffc-bat-volt-max = <4450>;
 		mi,pd-battery-warm-th = <420>;   // keep in sync
 		mi,use-qcom-gauge;
 		//mi,cp-sec-enable;
 		mi,therm-level-threshold = <12>;
 		mi,chg-enable-k11a;
-		mi,pd-power-max = <33>; /*charge power max : 33W */
+		mi,pd-power-max = <25>; /*charge power max : 33W */
 	};
 
 	alioth_batterydata: qcom,battery-data {
